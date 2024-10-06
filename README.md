@@ -7,8 +7,6 @@ This repository contains the Terraform configuration and associated files for de
 - [Project Overview](#project-overview)
 - [Getting Started](#getting-started)
 - [Infrastructure Overview](#infrastructure-overview)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Project Overview
@@ -30,3 +28,6 @@ The Terraform configuration in this repository provisions and manages several ke
 - CloudFront: Content delivery network to quickly serve content around the world.
 - Lambda: Serverless function to run small nodejs code close to CloudFront.
 - Certificate Manager: Certificate to encrypt web traffic hitting CloudFront for the `securitysting.com` domain.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
